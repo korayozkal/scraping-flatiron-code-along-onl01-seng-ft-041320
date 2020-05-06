@@ -24,6 +24,9 @@ end
  
 Scraper.new.get_page
   
+  def get_courses
+  self.get_page.css(".post")
+end
   
   
   #def print_courses
